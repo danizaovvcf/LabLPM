@@ -1,3 +1,4 @@
+package Classes;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -54,7 +55,6 @@ public class Viajante {
     // Método para pesquisar voos
     public List<PassagemAerea> PesquisarVoo(Aeroporto origem, Aeroporto destino, Date data) {
         List<PassagemAerea> voosDisponiveis = new ArrayList<>();
-        // Aqui você poderia simular a pesquisa de voos ou acessar um banco de dados
         return voosDisponiveis;
     }
 

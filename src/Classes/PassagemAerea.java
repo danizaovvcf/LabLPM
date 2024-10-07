@@ -1,3 +1,4 @@
+package Classes;
 import java.util.Date;
 
 public class PassagemAerea {
@@ -138,7 +139,7 @@ public class PassagemAerea {
 
     // Método para converter para dólar (exemplo básico de conversão)
     public double converterParaDolar(double valor) {
-        double taxaConversao = 5.0; // Taxa de conversão fictícia
-        return valor / taxaConversao;
+        double taxaConversao = 6.0; // Taxa de conversão fictícia
+        return valor * taxaConversao;
     }
 }
